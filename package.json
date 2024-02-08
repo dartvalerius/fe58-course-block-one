@@ -1,0 +1,27 @@
+{
+  "name": "fe58-course-block-one",
+  "version": "1.0.0",
+  "description": "",
+  "source": "src/index.html",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dartvalerius/fe58-course-block-one.git"
+  },
+  "keywords": [
+    "fe58"
+  ],
+  "author": "Filippenkov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dartvalerius/fe58-course-block-one/issues"
+  },
+  "homepage": "https://github.com/dartvalerius/fe58-course-block-one#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.11.0",
+    "parcel": "^2.11.0"
+  }
+}
