@@ -1,0 +1,30 @@
+@import "cdn";
+
+// Fonts
+$font-h1: 900 64px Raleway;
+$font-h2: 700 36px Raleway;
+$font-h3: 700 30px Raleway;
+$font-h4: 900 24px Raleway;
+$font-h5: 400 18px Raleway;
+$font-h6: 700 13px Raleway;
+
+// Navigation text color
+$nav-text-color-normal: #FFF;
+$nav-text-color-hover: #FFF;
+$nav-text-color-active: #E71414;
+
+// Navigation underscore color
+$nav-underscore-color-hover: #BABBC5;
+$nav-underscore-color-active: #E71414;
+
+// Button color
+$button-color-normal: #FF4343;
+$button-color-hover: #E71414;
+$button-color-active: #FF4343;
+
+// Button shadow color
+$button-shadow-color-active: #FF4343;
+
+// Work mask color
+$work-mack-color-hover: #FF4343CC;
+$work-mack-color-active: #B90C0CCC;
