@@ -113,10 +113,10 @@
 
 .navigation-list__item {
     text-align: center;
-    padding-left: 15px;
 
     @media (max-width: 320px) {
         text-align: left;
+        padding-left: 15px;
     }
 
     &:first-child {
