@@ -1,15 +1,44 @@
 .footer-info {
     background-color: #353C65;
     padding: 71px 0;
+
+    @media (max-width: 1024px) {
+        padding: 46px 0;
+    }
+
+    @media (max-width: 320px) {
+        padding: 34px 0;
+    }
+
 }
 
 .info {
     display: flex;
     justify-content: space-between;
+
+    @media (max-width: 320px) {
+        flex-direction: column;
+    }
 }
 
 .info__item {
     width: 370px;
+
+    &:nth-child(2) {
+        margin: 0 15px;
+    }
+
+    @media (max-width: 1024px) {
+        width: 315px;
+    }
+
+    @media (max-width: 320px) {
+        width: 279px;
+
+        &:nth-child(2) {
+            margin: 69px 0 59px 0;
+        }
+    }
 }
 
 .info-title {
@@ -19,6 +48,15 @@
     text-transform: uppercase;
     color: #FFF;
     margin-bottom: 29px;
+
+    @media (max-width: 1024px) {
+        font-size: 14px;
+        margin-bottom: 17px;
+    }
+
+    @media (max-width: 320px) {
+        margin-bottom: 34px;
+    }
 }
 
 .info-text {
@@ -29,11 +67,23 @@
         font-weight: 400;
         color: #FFF;
         text-transform: capitalize;
+
+        @media (max-width: 1024px) {
+            font-size: 14px;
+        }
     }
 }
 
 .social-mb {
     margin-bottom: 49px;
+
+    @media (max-width: 1024px) {
+        margin-bottom: 32px;
+    }
+
+    @media (max-width: 320px) {
+        margin-bottom: 36px;
+    }
 }
 
 .info-social {
@@ -49,10 +99,26 @@
         padding: 10px;
         border: 1px solid #C6CBCD;
         width: 43px;
+        margin: 0 26px;
         transition: .5s;
 
-        &:nth-child(even) {
-            margin: 0 26px;
+        @media (max-width: 1024px) {
+            font-size: 15px;
+            padding: 8px;
+            margin: 0 22px;
+            width: 36px;
+        }
+
+        @media (max-width: 320px) {
+            margin: 0 24px;
+        }
+
+        &:first-child {
+            margin: 0;
+        }
+
+        &:last-child {
+            margin: 0;
         }
 
         &:hover {
@@ -74,10 +140,22 @@
 .copyright {
     width: 370px;
     text-align: center;
+
+    @media (max-width: 1024px) {
+        width: 314px;
+    }
+
+    @media (max-width: 320px) {
+        width: 280px;
+    }
     
     span {
         font: $font-h5;
         color: #808080;
+
+        @media (max-width: 1024px) {
+            font-size: 14px;
+        }
 
         &:last-child {
             color: #FFF;
