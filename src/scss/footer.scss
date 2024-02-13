@@ -99,24 +99,20 @@
         padding: 10px;
         border: 1px solid #C6CBCD;
         width: 43px;
-        margin: 0 26px;
+        margin-right: 26px;
         transition: .5s;
 
         @media (max-width: 1024px) {
             font-size: 15px;
             padding: 8px;
-            margin: 0 22px;
+            margin-right: 22px;
             width: 36px;
         }
 
         @media (max-width: 320px) {
-            margin: 0 24px;
+            margin-right: 24px;
         }
-
-        &:first-child {
-            margin: 0;
-        }
-
+        
         &:last-child {
             margin: 0;
         }
