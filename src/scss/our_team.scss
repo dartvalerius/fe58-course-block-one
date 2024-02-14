@@ -1,5 +1,5 @@
 .our-team {
-    padding: 114px 0;
+    padding: 114px 0 104px;
 
     @media (max-width: 1024) {
         padding: 78px 0;
@@ -12,7 +12,8 @@
 
 .person-card-wrap {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    flex-wrap: wrap;
 
     @media (max-width: 320) {
         flex-direction: column;
@@ -21,13 +22,17 @@
 }
 
 .person-card {
-    margin-right: 30px;
+    width: 270px;
+    margin-right: 10px;
+    margin-bottom: 10px;
 
     @media (max-width: 1024) {
+        width: 227px;
         margin-right: 25px;
     }
 
     @media (max-width: 320) {
+        width: 280px;
         margin-right: 0px;
         margin-bottom: 50px;
     }
