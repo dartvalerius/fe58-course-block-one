@@ -27,11 +27,6 @@
         left: 0;
         z-index: 10;
     }
-
-    .container {
-        position: relative;
-        z-index: 20;
-    }
 }
 
 .navigation {
@@ -53,6 +48,9 @@
 }
 
 .logo {
+    position: relative;
+    z-index: 20;
+
     @media (max-width: 320px) {
         line-height: 56px;
         padding-left: 15px;
@@ -85,6 +83,9 @@
 }
 
 .navigation-list {
+    position: relative;
+    z-index: 20;
+
     display: flex;
     width: 670px;
 
@@ -185,6 +186,8 @@
 }
 
 .banner {
+    position: relative;
+    z-index: 20;
 
     &::before {
         content: "";
